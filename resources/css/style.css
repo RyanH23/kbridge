@@ -1,0 +1,261 @@
+html {
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.border{
+  border: 1px solid black;
+}
+
+.logo-initial{
+  text-align: center;
+  margin-top: 24rem;
+}
+
+.login-container{
+    position: fixed;
+    bottom: -40rem;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    transition: bottom 0.4s;
+    transition-timing-function: linear;
+    text-align: center;
+}
+
+.active{
+  bottom: 0rem;
+}
+
+.login-button{
+  background: rgb(219, 65, 5);
+  color: white;
+  width: 15rem;
+  height: 15rem;
+  border: 7.5rem solid rgb(219, 65, 5);
+  border-radius: 7.5rem;
+  margin-bottom: -5rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-button h3{
+    margin-bottom: 5rem;
+}
+
+.login-box{
+    color: white;
+    background: rgb(219, 65, 5);
+    width: 100vw;
+    height: 40rem;
+    position: fixed:
+    bottom: 0;
+
+}
+
+.angle-background-container {
+  position: fixed;
+  padding-top: 60px;
+  padding-left: 0;
+  height: 100vh;
+  bottom: 0;
+  width: 100vw;
+  overflow-y: hidden;
+  z-index: -10;
+}
+
+.angle-background-1 {
+  background: rgba(54, 191, 177, 0.15);
+  position: fixed;
+  height: 120%;
+  width: 100vw;
+  top: 30rem;
+  -webkit-transform: skewY(-11deg);
+  -moz-transform: skewY(-11deg);
+  -ms-transform: skewY(-11deg);
+  -o-transform: skewY(-11deg);
+  transform: skewY(-11deg);
+  z-index: -10;
+
+  -webkit-animation-name: wave1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 10;
+  animation-name: wave1;
+  animation-duration: 10s;
+  animation-iteration-count: 10;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes wave1 {
+    0% {
+            -webkit-transform: skewY(-11deg);
+            -moz-transform: skewY(-11deg);
+            -ms-transform: skewY(-11deg);
+            -o-transform: skewY(-11deg);
+        }
+    80% {
+            -webkit-transform: skewY(-11deg);
+            -moz-transform: skewY(-11deg);
+            -ms-transform: skewY(-11deg);
+            -o-transform: skewY(-11deg);
+        }
+    90% {
+          -webkit-transform: skewY(-1deg);
+          -moz-transform: skewY(-1deg);
+          -ms-transform: skewY(-1deg);
+          -o-transform: skewY(-1deg);
+      }
+
+    100% {
+            -webkit-transform: skewY(-11deg);
+            -moz-transform: skewY(-11deg);
+            -ms-transform: skewY(-11deg);
+            -o-transform: skewY(-11deg);
+        }
+}
+
+/* Standard syntax */
+@keyframes wave1 {
+  0% {
+          -webkit-transform: skewY(-11deg);
+          -moz-transform: skewY(-11deg);
+          -ms-transform: skewY(-11deg);
+          -o-transform: skewY(-11deg);
+      }
+  80% {
+          -webkit-transform: skewY(-11deg);
+          -moz-transform: skewY(-11deg);
+          -ms-transform: skewY(-11deg);
+          -o-transform: skewY(-11deg);
+      }
+  90% {
+        -webkit-transform: skewY(-1deg);
+        -moz-transform: skewY(-1deg);
+        -ms-transform: skewY(-1deg);
+        -o-transform: skewY(-1deg);
+    }
+
+  100% {
+          -webkit-transform: skewY(-11deg);
+          -moz-transform: skewY(-11deg);
+          -ms-transform: skewY(-11deg);
+          -o-transform: skewY(-11deg);
+      }
+}
+
+
+
+
+.angle-background-2 {
+  background: rgba(54, 191, 177, 0.15);
+  position: fixed;
+  height: 120%;
+  width: 100vw;
+  top: 29.25rem;
+  -webkit-transform: skewY(-3.5deg);
+  -moz-transform: skewY(-3.5deg);
+  -ms-transform: skewY(-3.5deg);
+  -o-transform: skewY(-3.5deg);
+  transform: skewY(-3.5deg);
+  z-index: -10;
+
+  -webkit-animation-name: wave2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 10;
+  animation-name: wave2;
+  animation-duration: 6s;
+  animation-iteration-count: 10;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes wave2 {
+    0% {
+            -webkit-transform: skewY(-3.5deg);
+            -moz-transform: skewY(-3.5deg);
+            -ms-transform: skewY(-3.5deg);
+            -o-transform: skewY(-3.5deg);
+        }
+    80% {
+            -webkit-transform: skewY(-3.5deg);
+            -moz-transform: skewY(-3.5deg);
+            -ms-transform: skewY(-3.5deg);
+            -o-transform: skewY(-3.5deg);
+        }
+    90% {
+          -webkit-transform: skewY(-14deg);
+          -moz-transform: skewY(-14deg);
+          -ms-transform: skewY(-14deg);
+          -o-transform: skewY(-14deg);
+      }
+
+    100% {
+            -webkit-transform: skewY(-3.5deg);
+            -moz-transform: skewY(-3.5deg);
+            -ms-transform: skewY(-3.5deg);
+            -o-transform: skewY(-3.5deg);
+        }
+}
+
+/* Standard syntax */
+@keyframes wave2 {
+  0% {
+          -webkit-transform: skewY(-3.5deg);
+          -moz-transform: skewY(-3.5deg);
+          -ms-transform: skewY(-3.5deg);
+          -o-transform: skewY(-3.5deg);
+      }
+  80% {
+          -webkit-transform: skewY(-3.5deg);
+          -moz-transform: skewY(-3.5deg);
+          -ms-transform: skewY(-3.5deg);
+          -o-transform: skewY(-3.5deg);
+      }
+  90% {
+        -webkit-transform: skewY(-14deg);
+        -moz-transform: skewY(-14deg);
+        -ms-transform: skewY(-14deg);
+        -o-transform: skewY(-14deg);
+    }
+
+  100% {
+          -webkit-transform: skewY(-3.5deg);
+          -moz-transform: skewY(-3.5deg);
+          -ms-transform: skewY(-3.5deg);
+          -o-transform: skewY(-3.5deg);
+      }
+}
+
+
+.angle-background-3 {
+  background: rgba(54, 191, 177, 0.15);
+  position: fixed;
+  height: 120%;
+  width: 100vw;
+  top: 36rem;
+  -webkit-transform: skewY(-1.5deg);
+  -moz-transform: skewY(-1.5deg);
+  -ms-transform: skewY(-1.5deg);
+  -o-transform: skewY(-1.5deg);
+  transform: skewY(-1.5deg);
+  z-index: -10;
+}
